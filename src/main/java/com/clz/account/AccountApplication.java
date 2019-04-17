@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AccountApplication {
 
 	public static void main(String[] args) {
-		System.out.println("yy");//test123
+		System.out.println("yy");//test12
 		SpringApplication.run(AccountApplication.class, args);
 	}
 
