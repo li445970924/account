@@ -1,4 +1,4 @@
-package com.clz.account;
+package com.clz.modules.account;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.clz.account;
+package com.clz;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
