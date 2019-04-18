@@ -3,11 +3,9 @@ package com.clz.modules.sys.domain.dao;
 import com.clz.modules.sys.domain.beans.SysUserExample;
 import com.clz.modules.sys.domain.entity.SysUser;
 import org.apache.ibatis.annotations.Param;
-import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-@Component
 public interface SysUserMapper {
     int countByExample(SysUserExample example);
 

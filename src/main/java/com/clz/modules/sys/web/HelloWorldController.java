@@ -12,7 +12,7 @@ public class HelloWorldController {
     SysUserMapper mapper;
     @RequestMapping("/hello")
     public String index() {
-        mapper.selectByPrimaryKey("1");
+        /*mapper.selectByPrimaryKey("1");*/
         return "Hello World";
     }
 }
