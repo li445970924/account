@@ -16,6 +16,12 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<!--<spring-boot.version></spring-boot.version>-->
+		<mybatis.version>3.2.8</mybatis.version>
+		<mybatis-spring.version>1.2.3</mybatis-spring.version>
+		<druid.version>1.0.18</druid.version>
+		<mysql.driver.version>5.1.30</mysql.driver.version>
+		<shiro.version>1.2.3</shiro.version>
 	</properties>
 
 	<dependencies>
@@ -33,6 +39,38 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+
+		<!-- PERSISTENCE begin -->
+
+		<!-- MyBatis -->
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis</artifactId>
+			<version>${mybatis.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis-spring</artifactId>
+			<version>${mybatis-spring.version}</version>
+		</dependency>
+
+		<!-- connection pool -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>${druid.version}</version>
+		</dependency>
+
+		<!-- jdbc driver -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>${mysql.driver.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+		<!-- PERSISTENCE end -->
+
+
 	</dependencies>
 
 	<build>
