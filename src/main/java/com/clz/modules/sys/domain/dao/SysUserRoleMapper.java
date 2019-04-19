@@ -4,7 +4,6 @@ import com.clz.modules.sys.domain.entity.SysUserRoleKey;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
-
 public interface SysUserRoleMapper {
     int countByExample(SysUserRoleExample example);
 

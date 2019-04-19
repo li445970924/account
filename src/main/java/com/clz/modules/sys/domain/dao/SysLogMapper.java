@@ -7,7 +7,6 @@ import com.clz.modules.sys.domain.entity.SysLog;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
-
 public interface SysLogMapper {
     int countByExample(SysLogExample example);
 

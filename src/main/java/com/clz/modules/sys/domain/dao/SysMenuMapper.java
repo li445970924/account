@@ -5,7 +5,6 @@ import com.clz.modules.sys.domain.entity.SysMenu;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
-
 public interface SysMenuMapper {
     int countByExample(SysMenuExample example);
 

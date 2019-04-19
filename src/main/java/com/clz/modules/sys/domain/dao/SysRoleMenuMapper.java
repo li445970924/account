@@ -5,7 +5,6 @@ import com.clz.modules.sys.domain.entity.SysRoleMenuKey;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
-
 public interface SysRoleMenuMapper {
     int countByExample(SysRoleMenuExample example);
 

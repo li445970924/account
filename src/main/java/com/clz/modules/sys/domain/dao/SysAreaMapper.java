@@ -5,7 +5,6 @@ import com.clz.modules.sys.domain.entity.SysArea;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
-
 public interface SysAreaMapper {
     int countByExample(SysAreaExample example);
 
