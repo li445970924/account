@@ -1,0 +1,22 @@
+#默认使用配置
+spring:
+  profiles:
+    active: dev
+
+#公共配置与profiles选择无关
+mybatis:
+  typeAliasesPackage: com.clz.modules.sys.domain.entity
+  mapperLocations: classpath:mybatis/mapper/sys/*.xml
+  config-location: classpath:mybatis/mybatis-config.xml
+
+---
+
+#开发配置
+spring:
+  profiles: dev
+
+  datasource:
+    url: jdbc:mysql://47.105.167.43:3306/CLZDB
+    username: CLZOPER
+    password: CLZPASSWORD
+    driver-class-name: com.mysql.jdbc.Driver

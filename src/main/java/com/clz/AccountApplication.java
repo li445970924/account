@@ -11,7 +11,6 @@ public class AccountApplication {
 	public static void main(String[] args) {
 		System.out.println("start");//test12
 		SpringApplication.run(AccountApplication.class, args);
-		System.out.println("success");//test12
 	}
 
 }
